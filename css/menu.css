@@ -1,0 +1,188 @@
+.title{
+   
+   font-size: 200%;
+   color: white; 
+   font-family: 'lillyregular';
+   margin-top: 10px;    
+}
+a{
+     
+    text-decoration: none; 
+    float: left;   
+}
+p{
+        background: linear-gradient(to bottom, #f0d2d2 0px, #fff 100%);
+        font-family: 'lillyregular';
+}
+.uno{
+    
+    background:#00FF00;
+    color: white;
+    font-size:1.25em;
+    text-align:center;
+    font-family: 'lillyregular';
+    box-shadow:0px 3px 0px #8904B1;
+    border: 1; 
+    margin-top: 35px;
+}
+
+.uno:Hover{
+    background:#8904B1;
+    color: white;
+    font-size:1.25em;
+    margin: 20px;
+    text-align:center;
+    font-family: 'lillyregular';
+    box-shadow:0px 3px 0px #4C0B5F;
+    border: 1; 
+    margin-top: 35px;
+    
+    
+    
+}
+
+.dos{
+    background:#00FF00;
+    color: white;
+    font-size:1.25em;
+    margin: 20px;
+    padding:10px 0px;
+    text-align:center;
+    width: 150px;
+    font-family: 'lillyregular';
+    box-shadow:0px 3px 0px #8904B1;
+    border: 1; 
+    margin-top: 35px;
+}
+
+.dos:Hover{
+    background:#8904B1;
+    color: white;
+    font-size:1.25em;
+    margin: 20px;
+    padding:10px 0px;
+    text-align:center;
+    width: 150px;
+    font-family: 'lillyregular';
+    box-shadow:0px 3px 0px #4C0B5F;
+    border: 1; 
+    margin-top: 35px;
+}
+
+#title {
+    clear: both;
+	margin-top: 10px ; 
+	font-size: 50px ; 
+	text-align: center ; 
+	font-family: verdana ; 
+	color:#5c35b8; 
+    font-family: 'lillyregular';
+    
+
+
+}
+#persona {
+    text-transform: uppercase;
+    clear: both;
+	margin-top: 10px ; 
+	font-size: 50px ; 
+	text-align: center ; 
+	font-family: 'arial Narrow Bold' ; 
+	color:#34d825; 
+    
+    
+
+
+}
+#persona2 {
+    text-transform: uppercase;
+    clear: both;
+	margin-top: 10px ; 
+	font-size: 10px ; 
+	text-align: center ; 
+	font-family: 'arial Narrow Bold' ; 
+	color:#34d825; 
+    
+    
+
+
+}
+div#usuario{
+    float: left ;
+	width: 200px ; 
+	height: 230px ; 
+	transition : height .4s;
+
+}
+div.contenedor{
+    float: left ;
+	width: 200px ; 
+	height: 230px ; 
+	transition : height .4s;
+
+}
+
+div#uno {
+    clear: both;
+    width: 100%;
+    height: 45px;
+    
+    
+
+}
+#uno ul{
+    list-style: none;
+    
+}
+
+#uno ul li{
+    float: left;
+}
+
+
+#uno ul li p{
+    
+    text-align: center ;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    color: #f30101;
+    
+}
+
+#uno ul li a:hover{
+    
+    background:linear-gradient(to bottom, #f2f2f2 0px, #f0cac6 100%);
+}
+
+
+img.icon {
+	margin : auto;
+	background-color: rgba(255,255,255,.15); 
+	width: 40px ; 
+	padding: 20px ; 
+	border-radius: 50% ; 
+	box-shadow: 0px 0px 0px 30px  rgba(255,255,255,0); 
+	transition : .4s;
+}
+
+P.parrafo {
+	font-size: 1.2em ; 
+	color : black; 
+	text-align: center ; 
+	padding-top: 10px ; 
+	opacity: .6 ; 
+    transition : .4s; 	
+}
+div.contenedor:hover{
+    height: 250px ; 
+    
+}
+div.contenedor:hover p.parrafo{
+	padding-top: 30px ;
+    opacity:1; 
+}
+div.contenedor:hover img.icon {
+	box-shadow: 0px 0px 0px 0px  rgba(255,255,255,.6); 
+}
+
